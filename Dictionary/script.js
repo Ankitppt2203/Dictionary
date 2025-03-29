@@ -3,6 +3,7 @@ function searchWord() {
 
     if (word === "") {
         document.getElementById("result").innerHTML = "Please enter a word.";
+        //return from here
         return;
     }
 
